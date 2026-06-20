@@ -41,7 +41,7 @@ function handleSubmit(e) {
   ].filter(Boolean).join('\n');
 
   // Reemplaza TUNUMERO con tu número colombiano sin el + (ej: 573001234567)
-  const waNumber = '57TUNUMERO';
+  const waNumber = '573246625739';
   window.open(`https://wa.me/${waNumber}?text=${encodeURIComponent(text)}`, '_blank');
 
   const btn = form.querySelector('button[type="submit"]');
